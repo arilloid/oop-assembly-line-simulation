@@ -4,17 +4,12 @@
 
 ## Modules
 
-•	The tester module and input files.
-
-•	The Utilities module supports the parsing of input files, which contain information used to setup and configure the assembly line.
-
-•	The Station module manages information about a station on the assembly line, which holds a specific item and fills customer orders.
-
-•	The CustomerOrder module contains all the functionality for processing customer orders as they move from Station to Station along the assembly line. The Station where a given order currently rests fills a request for one item of that station, if there is any such request.
-
-•	The LineManager module first configures the assembly line and then moves CustomerOrders along it (from start to finish). The LineManager object configures the Workstation objects identified by the user, and moves orders along the line one step at a time. A Workstation is a Station that the LineManager has activated on the user's request. At each step, every Workstation fills one item in a Customer Order, if possible. The manager moves orders from station to station. Once an order has reached the end of the line, it is either complete or incomplete. An order is incomplete if one or more stations had an insufficient number of items in stock to cover that order's requests.
-
-•	The Workstation class defines the structure of an active station on the assembly line and contains all the functionality for filling customer orders with station items. Each Workstation is-a-kind-of Station. A Workstation object manages order processing for a single Item on the assembly line. Since a Workstation object represents a single location on the assembly line for filling customer orders with items, the object cannot be copied or moved. Make sure that this capability is deleted in your definition of the Workstation class.
+-	The tester module and input files.
+-	The Utilities module supports the parsing of input files, which contain information used to setup and configure the assembly line.
+- The Station module manages information about a station on the assembly line, which holds a specific item and fills customer orders.
+- The CustomerOrder module contains all the functionality for processing customer orders as they move from Station to Station along the assembly line. The Station where a given order currently rests fills a request for one item of that station, if there is any such request.
+-	The LineManager module first configures the assembly line and then moves CustomerOrders along it (from start to finish). The LineManager object configures the Workstation objects identified by the user, and moves orders along the line one step at a time. A Workstation is a Station that the LineManager has activated on the user's request. At each step, every Workstation fills one item in a Customer Order, if possible. The manager moves orders from station to station. Once an order has reached the end of the line, it is either complete or incomplete. An order is incomplete if one or more stations had an insufficient number of items in stock to cover that order's requests.
+-	The Workstation class defines the structure of an active station on the assembly line and contains all the functionality for filling customer orders with station items. Each Workstation is-a-kind-of Station. A Workstation object manages order processing for a single Item on the assembly line. Since a Workstation object represents a single location on the assembly line for filling customer orders with items, the object cannot be copied or moved. Make sure that this capability is deleted in your definition of the Workstation class.
 
 
 
