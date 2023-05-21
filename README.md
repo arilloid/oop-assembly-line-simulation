@@ -4,7 +4,7 @@ The assembly line consists of a set of workstations each of which holds a set of
 
 # Modules
 
--	The `tester` module and input files.
+-	The tester module and input files.
 
 -	The `Utilities` module supports the parsing of input files, which contain information used to setup and configure the assembly line.
 
