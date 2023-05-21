@@ -14,6 +14,8 @@ The assembly line simulation is written in `C++` following the `Object-Oriented`
 - At the end of the line, orders are either completed or incomplete due to a lack of inventory at one or more stations.
 - The simulator lists the completed orders and the incomplete orders once the line manager has finished processing all orders.
 
+
+
 # Modules
 
 -	The tester module and input files.
