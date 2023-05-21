@@ -30,5 +30,5 @@ The assembly line simulation is written in `C++` following the `Object-Oriented`
 
 -	The `Workstation` class defines the structure of an active station on the assembly line and contains all the functionality for filling customer orders with station items. Each `Workstation` is-a-kind-of `Station`. A `Workstation` object manages order processing for a single Item on the assembly line. Since a `Workstation` object represents a single location on the assembly line for filling customer orders with items, the object cannot be copied or moved. Make sure that this capability is deleted in your definition of the `Workstation` class.
 
-
+#### Made as a final project for the Object-Oriented Software Development course at Seneca College (Winter 2023)
 
